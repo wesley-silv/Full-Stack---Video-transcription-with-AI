@@ -7,7 +7,7 @@
   height: 100%;
   display: grid;
   place-content: center;
-  background-color: rgb(0 0 0 / 0.9);
+  background-color: rgb(0 0 0 / 0.8);
   z-index: 100;
   color: white;
 
@@ -16,7 +16,7 @@
   box-sizing: border-box;
   text-align: center;
 
-  animation: breathing 700ms infinite alternate cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: breathing 1000ms infinite alternate cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .loading body {
